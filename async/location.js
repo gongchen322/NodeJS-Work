@@ -9,7 +9,6 @@ module.exports = function (callback) {
 	if(err){
 		callback();
 	}else{
-		//console.log(JSON.stringify(body, null, 4));
 		callback(body)
 	}
 });
